@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,12 +13,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HitAndBlow {
+namespace HitAndBlow
+{
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// GamePage.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainWindow : Window {
-        public MainWindow() {
+    public partial class GamePage : Page
+    {
+        public GamePage()
+        {
             InitializeComponent();
         }
     }
